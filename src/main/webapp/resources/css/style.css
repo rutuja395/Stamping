@@ -1,0 +1,92 @@
+@charset "ISO-8859-1";
+
+html, body {
+	height:100%;
+}
+
+.cont {
+	
+	height:100%;
+	max-width:100%!;
+	padding: 0px;
+	margin-left:0px;
+}
+
+.cont h1{
+	padding-top: 100px;
+	padding-left: 100px;
+}
+
+.cont h2 {
+	padding-left: 100px;
+}
+
+.uploadform {
+	padding-left:100px;
+}
+.bg{
+	height:100%;
+	width:100%;
+	
+}
+ .navbar{
+	background-color:#f5f5ef;
+    width:100%;
+    text-transform: ;
+    font-weight: 600;
+    font-family: monospace;
+    color:#006080;
+}
+.navbar-brand {
+	margin-top:-10px;
+    height: 65px;   
+}
+
+.apptitle {
+	font-size: 2.25rem;
+}
+
+img {
+	margin-top:-10px;
+    width:80px;
+}
+
+#textform{
+	width:30%;
+}
+.profilepicture {
+    height:150px;
+    width:150px;
+    position:absolute;
+    top: 75px;
+    left:-75px;
+}
+.header{
+    color : #000;
+    margin-left:10%;
+    margin-top:70px;
+}
+
+.bg2 {
+				-webkit-animation: colorchange 60s infinite; 
+				animation: colorchange 60s infinite;
+			}
+			 
+			 
+@-webkit-keyframes colorchange {
+			 
+	 0%  {background: #00FFFF;}
+	25%  {background: #006400;}
+	50%  {background: #F08080;}
+	75%  {background: #DC7633;}
+	100% {background: #9B59B6;}
+}
+			 
+			 
+@keyframes colorchange {
+	 0%  {background: #00FFFF;}
+	25%  {background: #006400;}
+	50%  {background: #F08080 ;}
+	75%  {background: #DC7633;}
+	100% {background: #9B59B6;}  
+}
